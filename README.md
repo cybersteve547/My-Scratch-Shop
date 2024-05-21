@@ -2,6 +2,7 @@
 <h2>Introduction</h2>
 <p>Hello! Welcome to The ScratchAttach Shop.</p>
 <p>Here you can order code for the python extension, ScratchAttach.</p>
+<p>I may also add some of my current scratchattach projects to here.</p>
 
 <a href="https://scratch.mit.edu/discuss/topic/718972/">Scratch topic</a>
 
