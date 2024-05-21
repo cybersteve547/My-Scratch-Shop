@@ -14,6 +14,7 @@
         <li>We only accept orders for ScratchAttach (and maybe the cloud variable blocks in projects to connect to ScratchAttach.)</li>
         <li>If you are going to order, please follow the topic on Scratch (this is not required, just recommended so that you know when I finish it.)</li>
         <li>Make sure to give credit for the code!</li>
+        <li>All programs created require <a href="https://github.com/TimMcCool/scratchattach">Timmccool's Scratchattach extension</a> to work</li>
         <li>Read the rules.</li>
     </ul>
 
