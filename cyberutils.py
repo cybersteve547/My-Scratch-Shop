@@ -17,7 +17,7 @@ def login():
         # Repeats if username or password is incorrect
         input("Unable to log in. ")
         clear()
-        return signin()
+        return login()
     else:
         # Returns the session
         input("logged in! ")
