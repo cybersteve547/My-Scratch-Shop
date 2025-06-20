@@ -1,21 +1,28 @@
 import scratchattach as sa
+import cyberutils as cu
 
-name = "griffpatch"
-limits = [10, 5]
-max_depth = 2
+print("please log in for safety measures.")
+session = cu.login()
+print("who should i get data on?")
+name = input("")
+limits = [10, 5, 2, 2]
+max_depth = 4
 list = []
+cu.clear()
 
 def tree(username, lvl):
-    print(username)
+    print(lvl + username)
     list.append(lvl + username)
     try:
-        user = sa.get_user(username)
+        user = session.connect_user(username)
         if len(lvl) < max_depth:
             for follower in user.following(limit=limits[len(lvl)]):
-                tree(follower.username, lvl + " ")
+                tree(follower.username, lvl + "|")
     except:
         list.append(lvl + " broken user")
 
 tree(name, "")
-for i in list:
-    print(i)
+with open(name + ".txt", "w") as file:
+    file.write("tree of who " + name + " is following on scratch\n")
+    for i in list:
+        file.write(i + "\n")
