@@ -26,12 +26,11 @@ def maketree(username, lvl):
             if lvl < max_depth and lvl < len(limits):
                 for follower in user.following(limit=limits[lvl]):
                     tree.append(follower.username)
-                    maketree(follower.username, lvl + 1)
     except Exception as e:
         print(indent + username + " (broken user) error: " + str(e))
     with open(username + ".txt", "w") as file:
         file.write(username + " is following\n")
         for i in tree:
-            file.write(i + "\n"
+            file.write(i + "\n")
 
 maketree(name, 0)

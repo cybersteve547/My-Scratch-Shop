@@ -13,9 +13,9 @@ def login():
     print("Logging in to scratch...")
     try:
         result = sa.login(username, password)
-    except:
+    except Exception as e:
         # Repeats if username or password is incorrect
-        input("Unable to log in. ")
+        input("Unable to log in. error: " + str(e))
         clear()
         return login()
     else:
