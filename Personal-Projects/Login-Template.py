@@ -1,4 +1,4 @@
-import scratchattach as scratch3
+import scratchattach as sa
 import os
 
 def signin():
@@ -10,7 +10,7 @@ def signin():
     # Attempts to sign in
     print("Logging in to scratch...")
     try:
-        result = scratch3.login(username, password)
+        result = sa.login(username, password)
     except:
         # Repeats if username or password is incorrect
         input("Unable to log in.")

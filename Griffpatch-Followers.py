@@ -1,7 +1,7 @@
-import scratchattach as scratch3
+import scratchattach as sa
 
 # Initialize variables
-user = scratch3.get_user("griffpatch") # Change this if you want to look at a different users followers
+user = sa.get_user("griffpatch") # Change this if you want to look at a different users followers
 allfollowers = []
 offset = 0
 

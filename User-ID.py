@@ -1,6 +1,6 @@
-import scratchattach as scratch3
+import scratchattach as sa
 
 def UserID(User):
-    return(scratch3.get_user(User).id)
+    return(sa.get_user(User).id)
 
 print(UserID("cybersteve547"))

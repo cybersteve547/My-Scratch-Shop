@@ -1,4 +1,4 @@
-import scratchattach as scratch3
+import scratchattach as sa
 import time
 import os
 
@@ -11,7 +11,7 @@ def signin():
     # Attempts to sign in
     print("Logging in to scratch...")
     try:
-        result = scratch3.login(username, password)
+        result = sa.login(username, password)
     except:
         # Repeats if username or password is incorrect
         input("Unable to log in.")
@@ -45,7 +45,7 @@ while True:
         replies = comment["Replies"]
         commenter = comment["User"]
         content = comment["Content"]
-        commenterID = scratch3.get_user( commenter ).id
+        commenterID = sa.get_user( commenter ).id
         # Checks if the comment or any of the replies are by the owner of the profile
         needsreply = True
         if commenter == str(session.get_linked_user()):
