@@ -48,7 +48,7 @@
         <li>Deadline: If possible, in around 1 month, but anything under 4 months is ok.</li>
     </ul>
 <h2>Finished Orders (newest to oldest)</h2>
-<h3><a href="User-ID.py">artemvideoscratch's Scratch User ID</a></h3>
-<h3><a href="Griffpatch-Followers.py">minecraftmanpp_tutor's List Of Griffpatch's Followers Sorted By Follows</a></h3>
+<h3><a href="user-id.py">artemvideoscratch's Scratch User ID</a></h3>
+<h3><a href="griffpatch-followers.py">minecraftmanpp_tutor's List Of Griffpatch's Followers Sorted By Follows</a></h3>
 
 <h6>Thanks to timmccool for scratchattach!</h6>
