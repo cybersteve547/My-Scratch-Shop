@@ -6,7 +6,7 @@
 
 <a href="https://scratch.mit.edu/discuss/topic/718972/">Scratch topic</a>
 
-<img src="Shop.png" alt="Logo">
+<img src="shop.png" alt="Logo">
 
 <h2>Rules</h2>
     <ul>
